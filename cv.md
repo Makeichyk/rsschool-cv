@@ -3,9 +3,9 @@
 
 ***
 ### Contact information
-Phone: +375445455737 (Bel)
+Phone: +375445455737 (BLR)
 
-alt: +995511193950 (Ger)
+alt: +995511193950 (GE)
 
 E-mail: jaroslau1@gmail.com
 
@@ -48,8 +48,14 @@ function duplicateEncode(word){
 ### Courses:
 * [code-basics JS,HTML,CSS](https://ru.code-basics.com/)
 * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)]
+***
+### Project:
+[Curriculum vitae](https://github.com/Makeichyk/rsschool-cv)
 
 ***
+### Languages:
+* English Intermediate/Upper-intermediate according to the test on [efset.org](https://www.efset.org/quick-check/) 
+* Russian Native
 
 
 
