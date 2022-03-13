@@ -54,6 +54,7 @@ function duplicateEncode(word){
   * [code-basics JS,HTML,CSS](https://ru.code-basics.com/)
   * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
   * [W3School](https://www.w3schools.com/) (in progress)
+  * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
 ***
 
