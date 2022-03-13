@@ -22,6 +22,7 @@ For some time I was looking for myself in various professions, ranging from a te
 On a tip from my brother, who at one time both took these courses and was a mentor, I decided to try myself in the IT field, and so I ended up in RS-school. I'm interested in web development because it provides endless opportunities for professional growth, there are a lot of free resources for self-education and a large community of developers. Having tried my hand, and having experienced a genuine interest in this profession, I can safely say: "I believe that nothing will stop me from becoming an experienced Frontend developer!”
 
 ***
+
 ### Skills and Proficiency:
 * HTML5, CSS3
 * JavaScript Basics
@@ -50,11 +51,12 @@ function duplicateEncode(word){
 ```
 ***
 ### Courses:
-* [code-basics JS,HTML,CSS](https://ru.code-basics.com/)
-* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
-* [W3School](https://www.w3schools.com/) (in progress)
+  * [code-basics JS,HTML,CSS](https://ru.code-basics.com/)
+  * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+  * [W3School](https://www.w3schools.com/) (in progress)
 
 ***
+
 
 ### Project:
 
