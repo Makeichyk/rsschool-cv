@@ -1,18 +1,19 @@
 # Jaroslav Makeichyk
 ## Junior Front-end developer
 
-***
 ### Contact information
-Phone: +375445455737 (BLR)
+**Phone:** +375445455737 (BLR)
 
-alt: +995511193950 (GE)
+*alt*: +995511193950 (GE)
 
-E-mail: jaroslau1@gmail.com
+**E-mail:** jaroslau1@gmail.com
 
-Telegram: @Jaroslav_Makeichik
+**Telegram:** @Jaroslav_Makeichik
 
-[linkedIn](https://www.linkedin.com/in/jaroslav-makeichyk-8b8260234/)
+[**linkedIn**](https://www.linkedin.com/in/jaroslav-makeichyk-8b8260234/)
+
 ***
+
 ### About myself
 In 2019, after graduating from high school, he saw his future in the field of economics. However, having entered the Belarusian university, I was extremely disappointed with the level of preparation and requirements for study, the materials that were presented lagged behind the real time by 5 years or more. Teaching at the University was a torment for me, because there were no prospects for applying the acquired knowledge. Therefore, a year ago I decided to drop out of university. 
 
@@ -47,9 +48,12 @@ function duplicateEncode(word){
 ***
 ### Courses:
 * [code-basics JS,HTML,CSS](https://ru.code-basics.com/)
-* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)]
+* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* [W3School](https://www.w3schools.com/) (in progress)
 ***
+
 ### Project:
+
 [Curriculum vitae](https://github.com/Makeichyk/rsschool-cv)
 
 ***
