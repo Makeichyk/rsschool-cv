@@ -27,7 +27,9 @@ On a tip from my brother, who at one time both took these courses and was a ment
 * Git, GitHub
 * VS Code
 * Figma
+
 ***
+
 ### Code exaple
 #### Kata 6 kyu for example:
 
