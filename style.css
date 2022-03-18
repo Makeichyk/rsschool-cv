@@ -5,9 +5,9 @@
     src: url()
 }
 
-* {
+/* * {
     border: red 1px dotted;
-}
+} */
 
 body {
     font-family: 'Poppins', sans-serif;
