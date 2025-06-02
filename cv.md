@@ -1,6 +1,5 @@
 # Jaroslav Makeichyk
 
-<!-- <img src="../../../Images/Photos/Photo for CV.png" style="float: right; width: 200px; margin-left: 15px;" /> -->
 
 ## Summary
 ##### _Entry-level Frontend Developer with a solid foundation in HTML, CSS, and JavaScript, currently focusing on React and TypeScript. Actively seeking an internship or junior role to gain hands-on experience in real-world development. Particularly motivated by the opportunity to work on meaningful projects that deliver real value to users. Interested in team collaboration, knowledge sharing, and continuous growth as a developer._
