@@ -1,16 +1,24 @@
 # Jaroslav Makeichyk
 
+### _Junior Front-end developer_
+
+---
+
+> **Location:** Lublin, Poland  
+> **Email:** makeichyk.jaroslav@gmail.com | **Phone:** +48 517424391 (PL)  
+> **Links:** [**GitHub**](https://github.com/Makeichyk) | [**LinkedIn**](https://www.linkedin.com/in/jaroslav-makeichyk-8b8260234/) | [**Telegram**](https://t.me/Jaroslav_Makeichik) >
 
 ## Summary
+
 ##### _Entry-level Frontend Developer with a solid foundation in HTML, CSS, and JavaScript, currently focusing on React and TypeScript. Actively seeking an internship or junior role to gain hands-on experience in real-world development. Particularly motivated by the opportunity to work on meaningful projects that deliver real value to users. Interested in team collaboration, knowledge sharing, and continuous growth as a developer._
 
 ## Technical Skills
 
- __Languages:__ _JavaScript , HTML, CSS, TypeScript,_   
-__Frameworks/Libraries:__ _Currently learning React_  
-__Tools & Technologies:__ _Git, Figma, Webpack, ESLint, Prettier_  
-__Methodologies & Practices:__ _BEM, REST API, Agile, Scrum_  
-__Backend Exposure:__ _Used MAMP for simulating server interactions during training_  
+**Languages:** _JavaScript , HTML, CSS, TypeScript,_  
+**Frameworks/Libraries:** _Currently learning React_  
+**Tools & Technologies:** _Git, Figma, Webpack, ESLint, Prettier_  
+**Methodologies & Practices:** _BEM, REST API, Agile, Scrum_  
+**Backend Exposure:** _Used MAMP for simulating server interactions during training_
 
 ## Projects
 
@@ -20,16 +28,18 @@ _Developed a responsive online grocery store as part of training. Implemented se
 
 ### [Animal Shelter Website](https://makeichyk.github.io/Shelter/pages/main/index.html)
 
-*Created a multi-page site for an animal shelter, focusing on clean structure (BEM methodology), adaptive design, and basic accessibility.*
+_Created a multi-page site for an animal shelter, focusing on clean structure (BEM methodology), adaptive design, and basic accessibility._
 
 ### [Virtual Keyboard Simulator](https://makeichyk.github.io/Virtual-Keyboard/)
 
-*Built a web application that simulates keyboard typing on-screen. One of the most challenging parts was handling the Shift key logic: when Shift was pressed, all subsequent on-screen key presses output uppercase letters until released.*
+_Built a web application that simulates keyboard typing on-screen. One of the most challenging parts was handling the Shift key logic: when Shift was pressed, all subsequent on-screen key presses output uppercase letters until released._
 
 ## CODE EXAMPLE
 
 ![](./assets/CodeWarsTask.png)
-#### *My JavaScript Solution*
+
+#### _My JavaScript Solution_
+
 ```
 function createPhoneNumber(numbers){
   let res = "(***) ***-****";
@@ -39,6 +49,7 @@ function createPhoneNumber(numbers){
   return res
 }
 ```
+
 ## Education
 
 ### **Belarus State Economic University (BSEU)**
