@@ -1,41 +1,116 @@
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #4c3d3d;
-  /* border: 0px solid red; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.comfortaa-text> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  border: 2px solid green;
   margin: 0 auto;
+  background-color: #282731;
+
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 * {
+  color: #FFFFFF;
   box-sizing: border-box;
-  border: 1px dotted red;
 }
 
 .wrapper {
-  margin: 0 6vw;
+  margin: 0 10vw;
 }
 
+/* NAVIGATION BLOCK */
 .navigation_block {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   column-gap: 10px;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
+
+.navigation_block ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation_block li {
+  position: relative;
+}
+
+.navigation_block a {
+  text-decoration: none;
+  /* font-size: 20px; */
+}
+
+.navigation_block li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgb(0, 255, 217),
+    0 0 10px rgb(0, 255, 217),
+    0 0 20px rgb(0, 255, 217),
+    0 0 40px rgb(0, 255, 217);
+  ;
+  transition: width 0.3s ease;
+}
+
+.navigation_block li:hover::after {
+  width: 100%;
+}
+
+
+/* HEADER */
+
+.image-wrapper {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
 .image_container {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image_container img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .my_photo {
@@ -44,20 +119,31 @@ body {
   display: block;
 }
 
+.logo_container {
+  column-gap: 20vh;
+  margin: 5vh 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 
-.header_container h1 {
+.logo_container h1 {
   margin: 0;
 }
 
-.header_container h2 {
+.logo_container h2 {
   margin: 0;
-}
-
-.info_block {
-  border: 1px solid blue
 }
 
 .info_block>h2,
 .info_block>p {
   margin: 0;
+}
+
+.info_block {
+  margin-bottom: 5vh;
+}
+
+.contact {
+  margin-top: 5vh;
 }
