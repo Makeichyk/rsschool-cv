@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Makeichyk CV</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <div class="box"></div>
+  <main>
+
+    <div class="wrapper">
+
+      <div class="navigation_block">
+        <nav>Contact</nav>
+        <nav>Summary</nav>
+        <nav>Technical Skills</nav>
+        <nav>Projects</nav>
+        <nav>CODE EXAMPLE</nav>
+        <nav>Education</nav>
+        <nav>English Language Skills</nav>
+      </div>
+
+      <header class="header">
+        <div class="header_container">
+          <h1>Jaroslav Makeichyk</h1>
+          <h2>Front-end developer</h2>
+        </div>
+        <div class="image_container">
+          <img class="my_photo" src="./assets/CodeWarsTask.png" alt="code">
+        </div>
+
+      </header>
+
+
+
+      <div class="info_block contact">
+        <h2>Contact</h2>
+        <p>
+          > **Location:** Lublin, Poland <br>
+          > **Email:** makeichyk.jaroslav@gmail.com | **Phone:** +48 517424391 (PL) <br>
+          > **Links:** [**GitHub**](https://github.com/Makeichyk) | <br>
+          [**LinkedIn**](https://www.linkedin.com/in/jaroslav-makeichyk-8b8260234/) | <br>
+          [**Telegram**](https://t.me/Jaroslav_Makeichik) >
+        </p>
+      </div>
+      <div class="info_block summary">
+        <h2>Summary</h2>
+        <h5>Entry-level Frontend Developer with a solid foundation in HTML, CSS, and JavaScript, currently focusing on
+          React and TypeScript. Actively seeking an internship or junior role to gain hands-on experience in real-world
+          development. Particularly motivated by the opportunity to work on meaningful projects that deliver real value
+          to users. Interested in team collaboration, knowledge sharing, and continuous growth as a developer.</h5>
+      </div>
+      <div class="info_block technical_skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Languages: _JavaScript , HTML, CSS, TypeScript,_ </li>
+          <li>Frameworks/Libraries: Currently learning React_ </li>
+          <li>Tools & Technologies: _Git, Figma, Webpack, ESLint, Prettier_ </li>
+          <li>Methodologies & Practices: _BEM, REST API, Agile, Scrum_ </li>
+          <li>Backend Exposure: _Used MAMP for simulating server interactions during training_</li>
+        </ul>
+      </div>
+      <div class="info_block projects">
+        <h2>Projects</h2>
+
+        <h3>[Grocery Store Website](https://makeichyk.github.io/food_shop/)</h3>
+
+        <p>Developed a responsive online grocery store as part of training. Implemented semantic HTML and CSS for
+          layout,
+          and added interactive elements using JavaScript.</p>
+
+        <h3>[Animal Shelter Website](https://makeichyk.github.io/Shelter/pages/main/index.html)
+        </h3>
+
+        <p>Created a multi-page site for an animal shelter, focusing on clean structure (BEM methodology), adaptive
+          design, and basic accessibility.</p>
+
+        <h3>[Virtual Keyboard Simulator](https://makeichyk.github.io/Virtual-Keyboard/)</h3>
+
+        <p>Built a web application that simulates keyboard typing on-screen. One of the most challenging parts was
+          handling the Shift key logic: when Shift was pressed, all subsequent on-screen key presses output uppercase
+          letters until released.</p>
+      </div>
+      <div class="info_block code_example">
+        <h2>CODE EXAMPLE</h2>
+        <pre><code>
+            function createPhoneNumber(numbers){
+              let res = "(***) ***-****";
+              for (let i = 0; i < numbers.length; i++){
+              res = res.replace("*",numbers[i]);
+              }
+            return res
+            }
+        </code></pre>
+
+      </div>
+      <div class="info_block education">
+        <h2>Education</h2>
+
+        <h3> **Belarus State Economic University (BSEU)**</h3>
+        <p>_Incomplete Studied Finance and Banking. Left to pursue a career in IT._</p>
+
+        <h3> **Rolling Scopes School**</h3>
+        <h4> Frontend Development (Stage 1 completed)</h4>
+        <p>_Intensive program focused on HTML, CSS, JavaScript, and basic frontend architecture_</p>
+
+        <h3> Udemy</h3>
+        <h4> JavaScript Development Course</h4>
+        <p>_Completed an online course covering core JavaScript concepts and browser APIs._</p>
+
+        <h3> W3Schools & Basic JS Practice</h3>
+        <p>_Self-paced learning and hands-on practice with JavaScript basics and web standards._</p>
+      </div>
+      <div class="info_block english_language_skills">
+        <h2>English Language Skills</h2>
+        <h4>Level: B1+ (Intermediate) according to EFSet test.</h4>
+        <p>Regular communication with native speakers and comfortable consumption of technical and business information
+          in English. Recently worked with English leasing contracts, gaining experience in professional documentation.
+        </p>
+      </div>
+
+      <footer>
+        <h2>footer</h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia dignissimos, libero maxime odit excepturi
+        nostrum!
+        Impedit temporibus animi veniam officia quis asperiores nostrum placeat, at culpa, omnis, ullam molestiae
+        tempore?
+      </footer>
+    </div>
+  </main>
 </body>
+
 </html>
