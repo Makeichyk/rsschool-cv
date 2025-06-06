@@ -88,7 +88,8 @@
             design, and basic accessibility.</p>
         </div>
         <div class="project_container project_container_inactive">
-          <h3><a href="https://makeichyk.github.io/Virtual-Keyboard/">Virtual Keyboard Simulator</a></h3> <span class="notification">Link
+          <h3><a href="https://makeichyk.github.io/Virtual-Keyboard/">Virtual Keyboard Simulator</a></h3> <span
+            class="notification">Link
             temporarily unavailable due to school requirements.</span>
 
           <p>Built a web application that simulates keyboard typing on-screen. One of the most challenging parts was
@@ -99,16 +100,25 @@
 
       <div class="info_block code_example" id="code_example">
         <h2>CODE EXAMPLE</h2>
-        <pre><code>
-            function createPhoneNumber(numbers){
-              let res = "(***) ***-****";
+        <h4><i><span class="highlight_codeWars">Codewars</span> task:</i></h4>
+        <div class="task_iamge_container">
+          <img src="./assets/CodeWarsTask.png" alt="task screenshot">
+        </div>
+        <h4><i>My <span class="highlight_js">JavaScript</span> solution:</i></h4>
+        <div class="code_container">
+          <pre><code>
+          <span class="blue">function</span> <span class="yellow">createPhoneNumber</span><span class="dark_yellow">(</span><span class="light_blue">numbers</span><span class="dark_yellow">)</span><span class="dark_yellow">{</span>
+           <span class="blue">let</span> <span class="light_blue">res</span> = <span class="orange">"(***) ***-****"</span>;
 
-              for (let i = 0; i < numbers.length; i++){
-              res = res.replace("*",numbers[i]);
-              }
-            return res
-            }
+            <span class="purple">for</span> <span class="purple">(</span><span class="blue">let</span> <span class="light_blue">i</span> = <span class="green">0</span>; <span class="light_blue">i</span> < <span class="light_blue">numbers</span>.<span class="light_blue">length</span>; <span class="light_blue">i</span>++<span class="purple">)</span><span class="purple">{</span>
+              <span class="light_blue">res</span> = <span class="light_blue">res</span>.<span class="yellow">replace</span><span class="blue">(</span><span class="orange">"*"</span>,<span class="light_blue">numbers</span><span class="dark_yellow">[</span><span class="light_blue">i</span><span class="dark_yellow">]</span><span class="blue">)</span>;
+                <span class="purple">}</span>
+              
+            <span class="purple">return</span> <span class="light_blue">res</span>
+          <span class="dark_yellow">}</span>
         </code></pre>
+        </div>
+
 
       </div>
 
