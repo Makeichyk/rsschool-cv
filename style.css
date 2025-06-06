@@ -171,10 +171,6 @@ body h2 {
 }
 
 /* SUMMARY */
-.summary {
-  /* margin-left: 5vw; */
-  /* margin-right: 10vw; */
-}
 
 .highlight_css {
   text-shadow: 0 0 8px rgb(0, 170, 255);
@@ -230,4 +226,71 @@ body h2 {
 .skills_list i {
   /* font-size: x-large; */
   font-weight: 100;
+}
+
+/* Projects */
+.projects h3 {
+  position: relative;
+}
+
+.project_container {
+  margin-bottom: 3vw;
+}
+
+.projects::nth-child(2) {
+  margin-top: 0vw;
+}
+
+.projects h3 {
+  /* width: ; */
+  margin: 0;
+  display: inline-block;
+}
+
+.project_container h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  animation: pulse 1s infinite alternate;
+}
+
+.project_container_active h3::after {
+  box-shadow: 0 0 5px rgb(0, 255, 217),
+    0 0 10px rgb(0, 255, 217),
+    0 0 20px rgb(0, 255, 217),
+    0 0 40px rgb(0, 255, 217);
+}
+
+.project_container_inactive h3::after {
+  box-shadow: 0 0 5px rgb(217, 18, 18),
+    0 0 10px rgb(217, 18, 18),
+    0 0 20px rgb(217, 18, 18),
+    0 0 40px rgb(217, 18, 18);
+}
+
+.project_container_inactive a:hover {
+  cursor: not-allowed;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.notification {
+  text-shadow: 0 0 8px rgb(217, 18, 18);
+  animation: pulse 1s infinite alternate;
 }
