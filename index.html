@@ -45,7 +45,8 @@
         <h2>Summary</h2>
         <p>Entry-level Frontend Developer with a solid foundation in <span class="highlight_html">HTML</span>,
           <span class="highlight_css">CSS</span> and <span class="highlight_js">JavaScript</span>, currently focusing on
-          <span class="highlight_react">React</span> and TypeScript. Actively seeking an internship or junior role to
+          <span class="highlight_react">React</span> and <span class="highlight_react">TypeScript</span>. Actively
+          seeking an internship or junior role to
           gain hands-on experience in real-world
           development. Particularly motivated by the opportunity to work on meaningful projects that deliver real value
           to users. Interested in team collaboration, knowledge sharing, and continuous growth as a developer.
@@ -53,12 +54,20 @@
       </div>
       <div class="info_block technical_skills" id="technical_skills">
         <h2>Technical Skills</h2>
-        <ul>
-          <li>Languages: _JavaScript , HTML, CSS, TypeScript,_ </li>
-          <li>Frameworks/Libraries: Currently learning React_ </li>
-          <li>Tools & Technologies: _Git, Figma, Webpack, ESLint, Prettier_ </li>
-          <li>Methodologies & Practices: _BEM, REST API, Agile, Scrum_ </li>
-          <li>Backend Exposure: _Used MAMP for simulating server interactions during training_</li>
+        <ul class="skills_list">
+          <li><b class="bold">Languages:</b> <i><span class="highlight_js">JavaScript</span>, <span
+                class="highlight_css">CSS</span>,
+              <span class="highlight_html">HTML</span>,
+              <span class="highlight_react">TypeScript</span>,</i>
+          </li>
+          <li><b>Frameworks/Libraries:</b><i>
+              Currently learning <span class="highlight_react">React</span> </i></li>
+          <li><b>Tools & Technologies:</b><i>
+              Git, Figma, Webpack, ESLint, Prettier </i></li>
+          <li><b>Methodologies & Practices:</b><i>
+              BEM, REST API, Agile, Scrum </i></li>
+          <li><b>Backend Exposure:</b><i>
+              Used MAMP for simulating server interactions during training</i></li>
         </ul>
       </div>
       <div class="info_block projects" id="projects">
@@ -87,6 +96,7 @@
         <pre><code>
             function createPhoneNumber(numbers){
               let res = "(***) ***-****";
+
               for (let i = 0; i < numbers.length; i++){
               res = res.replace("*",numbers[i]);
               }

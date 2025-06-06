@@ -191,3 +191,43 @@ body h2 {
 .highlight_react {
   text-shadow: 0 0 8px rgb(97, 219, 251);
 }
+
+/* technical skills */
+
+.technical_skills ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  row-gap: 1vw;
+}
+
+.technical_skills li {
+  list-style: none;
+  position: relative;
+}
+
+.technical_skills li::after {
+  content: "";
+  position: absolute;
+  border-radius: 15px;
+  left: -1.5vw;
+  bottom: 0.5vw;
+  width: 0.5vw;
+  height: 0.5vw;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgb(0, 255, 217),
+    0 0 10px rgb(0, 255, 217),
+    0 0 20px rgb(0, 255, 217),
+    0 0 40px rgb(0, 255, 217);
+}
+
+.skills_list b {
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+
+.skills_list i {
+  /* font-size: x-large; */
+  font-weight: 100;
+}
