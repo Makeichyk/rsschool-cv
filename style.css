@@ -370,3 +370,36 @@ body h2 {
   height: auto;
   display: block;
 }
+
+/* .education h4{
+  margin: 0;
+} */
+
+.education h3,
+h4,
+p {
+  margin: 1vw 0;
+}
+
+.education h4>strong>i {
+  color: rgb(139, 200, 191);
+}
+
+.education_element {
+  margin: 2.5vw 0;
+}
+.education_element h3{
+  position: relative;
+}
+.education_element h3::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background-color: #c2f7f37e;
+}
+.education_element_first {
+  margin-top: 0;
+}
