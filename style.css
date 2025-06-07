@@ -166,10 +166,6 @@ body h2 {
   scroll-margin-top: 8vw;
 }
 
-.contact {
-  margin-top: 5vh;
-}
-
 /* SUMMARY */
 .highlight_codeWars {
   text-shadow: 0 0 8px rgb(222, 97, 92);
@@ -422,9 +418,47 @@ p {
   margin-top: 0;
 }
 
+.contact p {
+  text-indent: 0vw;
+  font-weight: 100;
+  margin: 1vw 0;
+}
+
+.contact strong {
+  font-weight: 900;
+}
+
+.personal_link a {
+  text-decoration: none;
+  position: relative;
+}
+
+.personal_link a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgb(0, 255, 217),
+    0 0 10px rgb(0, 255, 217),
+    0 0 20px rgb(0, 255, 217),
+    0 0 40px rgb(0, 255, 217);
+  ;
+  transition: width 0.4s ease-in;
+  animation: pulse 1s infinite alternate;
+}
+
+.links_container {
+  margin-top: 1vw;
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+}
+
 .footer {
   background-color: #20212c;
-  /* position: fixed; */
   position: relative;
   height: 5vw;
   width: 100vw;
@@ -434,7 +468,7 @@ p {
   margin-left: -50vw;
   margin-right: -50vw;
   bottom: 0;
-  
+
   z-index: 100;
 
 
