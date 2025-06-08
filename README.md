@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://makeichyk.github.io/rsschool-cv/
