@@ -35,7 +35,6 @@ body h2 {
   margin: 0 10vw;
 }
 
-/* NAVIGATION BLOCK */
 
 .navigation_block {
   background-color: #333547cd;
@@ -89,7 +88,6 @@ body h2 {
 }
 
 
-/* HEADER */
 
 .image-wrapper {
   border-radius: 10px;
@@ -149,8 +147,6 @@ body h2 {
   padding: 2.3vw 0 0 0;
 }
 
-/* Info BLOCK */
-
 .info_block>h2 {
   margin: 2vw 0 1vw 0;
 }
@@ -166,7 +162,6 @@ body h2 {
   scroll-margin-top: 8vw;
 }
 
-/* SUMMARY */
 .highlight_codeWars {
   text-shadow: 0 0 8px rgb(222, 97, 92);
 }
@@ -186,8 +181,6 @@ body h2 {
 .highlight_react {
   text-shadow: 0 0 8px rgb(97, 219, 251);
 }
-
-/* technical skills */
 
 .technical_skills ul {
   display: flex;
@@ -223,11 +216,9 @@ body h2 {
 }
 
 .skills_list i {
-  /* font-size: x-large; */
   font-weight: 100;
 }
 
-/* Projects */
 .projects h3 {
   position: relative;
 }
@@ -241,7 +232,6 @@ body h2 {
 }
 
 .projects h3 {
-  /* width: ; */
   margin: 0;
   display: inline-block;
 }
@@ -294,7 +284,6 @@ body h2 {
   animation: pulse 1s infinite alternate;
 }
 
-/* CODE BLOCK */
 .code_container {
   background-color: rgb(31, 31, 31);
   border-radius: 2vw;
@@ -356,12 +345,12 @@ body h2 {
     0 0 10px rgb(184, 203, 170);
 }
 
-.task_iamge_container {
+.task_image_container {
   overflow: hidden;
   border-radius: 15px;
 }
 
-.task_iamge_container img {
+.task_image_container img {
   width: 100%;
   height: auto;
   display: block;
