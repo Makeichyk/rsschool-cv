@@ -1,12 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Makeichyk CV</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+  <main>
+    <div class="wrapper">
+
+      <header class="header">
+
+        <nav class="navigation_block">
+          <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#technical_skills">Technical skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#code_example">Code example</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#language_skill">Language skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+          </ul>
+        </nav>
+
+        <div class="logo_container">
+
+          <div class="logo_name_container">
+            <h1>Jaroslav Makeichyk</h1>
+            <h2 class="style_exception">Front-end developer</h2>
+          </div>
+
+          <div class="image_container">
+            <img src="./assets/photo_for_CV.png" alt="Моё фото" />
+          </div>
+
+        </div>
+      </header>
+
+      <div class="info_block summary" id="summary">
+        <h2>Summary</h2>
+        <p>Entry-level Frontend Developer with a solid foundation in <span class="highlight_html">HTML</span>,
+          <span class="highlight_css">CSS</span> and <span class="highlight_js">JavaScript</span>, currently focusing on
+          <span class="highlight_react">React</span> and <span class="highlight_react">TypeScript</span>. Actively
+          seeking an internship or junior role to
+          gain hands-on experience in real-world
+          development. Particularly motivated by the opportunity to work on meaningful projects that deliver real value
+          to users. Interested in team collaboration, knowledge sharing, and continuous growth as a developer.
+        </p>
+      </div>
+
+      <div class="info_block technical_skills" id="technical_skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills_list">
+          <li><b class="bold">Languages:</b> <i><span class="highlight_js">JavaScript</span>, <span
+                class="highlight_css">CSS</span>,
+              <span class="highlight_html">HTML</span>,
+              <span class="highlight_react">TypeScript</span>,</i>
+          </li>
+          <li><b>Frameworks/Libraries:</b><i>
+              Currently learning <span class="highlight_react">React</span> </i></li>
+          <li><b>Tools & Technologies:</b><i>
+              Git, Figma, Webpack, ESLint, Prettier </i></li>
+          <li><b>Methodologies & Practices:</b><i>
+              BEM, REST API, Agile, Scrum </i></li>
+          <li><b>Backend Exposure:</b><i>
+              Used MAMP for simulating server interactions during training</i></li>
+        </ul>
+      </div>
+
+      <div class="info_block projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project_container project_container_active">
+          <h3><a href="https://makeichyk.github.io/food_shop/">Grocery Store Website</a></h3>
+          <p>Developed a responsive online grocery store as part of training. Implemented semantic HTML and CSS for
+            layout,
+            and added interactive elements using JavaScript.</p>
+        </div>
+        <div class="project_container project_container_inactive">
+          <h3><a href="https://makeichyk.github.io/Shelter/pages/main/index.html">Animal Shelter
+              Website</a>
+          </h3> <span class="notification">Link temporarily unavailable due to school requirements.</span>
+          <p>Created a multi-page site for an animal shelter, focusing on clean structure (BEM methodology), adaptive
+            design, and basic accessibility.</p>
+        </div>
+        <div class="project_container project_container_inactive">
+          <h3><a href="https://makeichyk.github.io/Virtual-Keyboard/">Virtual Keyboard Simulator</a></h3> <span
+            class="notification">Link
+            temporarily unavailable due to school requirements.</span>
+
+          <p>Built a web application that simulates keyboard typing on-screen. One of the most challenging parts was
+            handling the Shift key logic: when Shift was pressed, all subsequent on-screen key presses output uppercase
+            letters until released.</p>
+        </div>
+      </div>
+
+      <div class="info_block code_example" id="code_example">
+        <h2>CODE EXAMPLE</h2>
+        <h4><i><span class="highlight_codeWars">Codewars</span> task:</i></h4>
+        <div class="task_image_container">
+          <img src="./assets/CodeWarsTask.png" alt="task screenshot">
+        </div>
+        <h4><i>My <span class="highlight_js">JavaScript</span> solution:</i></h4>
+        <div class="code_container">
+          <pre><code>
+          <span class="blue">function</span> <span class="yellow">createPhoneNumber</span><span class="dark_yellow">(</span><span class="light_blue">numbers</span><span class="dark_yellow">)</span><span class="dark_yellow">{</span>
+           <span class="blue">let</span> <span class="light_blue">res</span> = <span class="orange">"(***) ***-****"</span>;
+
+            <span class="purple">for</span> <span class="purple">(</span><span class="blue">let</span> <span class="light_blue">i</span> = <span class="green">0</span>; <span class="light_blue">i</span> < <span class="light_blue">numbers</span>.<span class="light_blue">length</span>; <span class="light_blue">i</span>++<span class="purple">)</span><span class="purple">{</span>
+              <span class="light_blue">res</span> = <span class="light_blue">res</span>.<span class="yellow">replace</span><span class="blue">(</span><span class="orange">"*"</span>,<span class="light_blue">numbers</span><span class="dark_yellow">[</span><span class="light_blue">i</span><span class="dark_yellow">]</span><span class="blue">)</span>;
+                <span class="purple">}</span>
+              
+            <span class="purple">return</span> <span class="light_blue">res</span>
+          <span class="dark_yellow">}</span>
+        </code></pre>
+        </div>
+
+
+      </div>
+
+      <div class="info_block education" id="education">
+        <h2>Education</h2>
+        <div class="info_block_element education_element education_element_first">
+          <h3><strong>Belarus State Economic University (BSEU)</strong></h3>
+          <h4><strong><i>Faculty of Finance and Banking, Department of Finance. </i></strong></h4>
+          <p><i>Incomplete Studied Finance and Banking. Left to pursue a career in IT.</i></p>
+        </div>
+        <div class="info_block_element education_element">
+          <h3><strong>Rolling Scopes School</strong></h3>
+          <h4><strong><i>Frontend Development (Stage 1 completed)</i></strong></h4>
+          <p>Intensive program focused on HTML, CSS, JavaScript, and basic frontend architecture</p>
+        </div>
+        <div class="info_block_element education_element">
+          <h3><strong>Udemy</strong></h3>
+          <h4> <strong><i>JavaScript Development Course</i></strong></h4>
+          <p><i>Completed an online course covering core JavaScript concepts and browser APIs.</i></p>
+        </div>
+        <div class="info_block_element education_element">
+          <h3><strong> W3Schools & Basic JS Practice</strong></h3>
+          <p><i>Self-paced learning and hands-on practice with JavaScript basics and web standards.</i></p>
+        </div>
+      </div>
+
+      <div class="info_block english_language_skills" id="language_skill">
+        <h2>Language Skills</h2>
+
+        <div class="info_block_element education_element english_language_skills_first">
+          <h3> <strong>English</strong></h3>
+          <h4> <strong><i>Level: B1+ (Intermediate) according to EFSet test.</i></strong></h4>
+          <p><i>Regular communication with native speakers and comfortable consumption of technical and business
+              information
+              in English. Recently worked with English leasing contracts, gaining experience in professional
+              documentation.</i></p>
+        </div>
+
+        <div class="info_block_element education_element">
+          <h3> <strong>Polish</strong></h3>
+          <h4> <strong><i>Beginner level</i></strong></h4>
+          <p><i>Beginner level, able to communicate on simple everyday topics.</i></p>
+        </div>
+
+        <div class="info_block_element education_element">
+          <h3> <strong>Russian</strong></h3>
+          <h4> <strong><i>Level: Native speaker.</i></strong></h4>
+        </div>
+      </div>
+
+      <div class="info_block contact" id="contact">
+        <h2>Contact</h2>
+        <p><strong>Location:</strong> Lublin, Poland</p>
+        <p><strong>Email:</strong> makeichyk.jaroslav@gmail.com</p>
+        <p><strong>Phone:</strong> +48 517424391 (PL)</p>
+        <div class="links_container">
+          <span class="personal_link"><a href="https://github.com/Makeichyk">GitHub</a></span> <span class="personal_link"><a href="https://www.linkedin.com/in/jaroslav-makeichyk-8b8260234/">LinkedIn</a></span> <span class="personal_link"><a href="https://t.me/Jaroslav_Makeichik">Telegram</a></span>
+        </div>
   
+      </div>
+
+      <footer class="footer">
+        <div class="footer_image_container footer_image_container_gh ">
+          <a href="https://github.com/Makeichyk"><img src="./assets/github-mark/github-mark-white.svg" alt="GitHub logo"
+              class="gh_logo"></a>
+        </div>
+        <h2>2025</h2>
+        <div class="footer_image_container">
+          <a href="https://rs.school/courses/javascript-ru"><img src="./assets/rs-school-logo 1.svg" alt="RSS logo"
+              class="RSS_logo"></a>
+        </div>
+      </footer>
+    </div>
+    </div>
+  </main>
 </body>
+
 </html>
