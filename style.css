@@ -407,7 +407,12 @@ p {
   margin-top: 0;
 }
 
-.contact p {
+.contact_list {
+  list-style: none;
+  padding: 1vw 0vw;;
+}
+
+.contact_list li {
   text-indent: 0vw;
   font-weight: 100;
   margin: 1vw 0;
