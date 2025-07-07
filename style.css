@@ -40,6 +40,8 @@ body h2 {
   background-color: #333547cd;
   position: fixed;
   z-index: 1;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 2vw 3vw;
   transition: transform 0.7s ease;
@@ -459,26 +461,13 @@ p {
 
 .footer {
   background-color: #20212c;
-  position: relative;
-  height: 5vw;
-  width: 100vw;
+  padding: 2vw 0;
+}
 
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  bottom: 0;
-
-  z-index: 100;
-
-
+.footer_content_box {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
   justify-content: space-between;
   align-items: center;
-  padding: 3vw;
 }
 
 .footer_image_container {
