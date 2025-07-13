@@ -73,7 +73,7 @@ body h2 {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-size: 1.4vw;
+  font-size: 1vw;
   letter-spacing: 0.05em;
 }
 
@@ -493,4 +493,7 @@ p {
   .wrapper {
     margin: 0 10vw;
   }
+  .navigation_block a {
+  font-size: 1.4vw;
+}
 }
